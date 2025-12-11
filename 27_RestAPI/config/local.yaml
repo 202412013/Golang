@@ -1,0 +1,10 @@
+env: "dev"
+
+# SQLite use karsu je filebase database che. Bahuj performant che and bauj fast che.
+# Because Network request na karvi pde. Database project na andar j file ma hoi che.
+# Pocketbase -> go base project che under sqlite
+
+storage_path: "storage/storage.db"
+http_server : 
+  address : "localhost:8082"
+  # timeout :
